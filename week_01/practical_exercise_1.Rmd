@@ -13,7 +13,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-pacman::p_load(ggplot2, tidyverse)
+pacman::p_load(ggplot2, tidyverse, dplyr)
 ```
 
 # Practical Exercise 1
