@@ -173,6 +173,7 @@ Bhat <- model$coefficients;Bhat
 Y <- mtcars[,1];Y
 X <- mtcars[,6];X
 error <- model$residuals;error
+# I didn't get any further than this. I will try to do better next week.
 
 ```
 1. extract $\hat{\beta}$, $Y$, $\hat{Y}$, $X$ and $\epsilon$ from __model__ (hint: have a look at the function __model.matrix__)  
@@ -183,6 +184,7 @@ error <- model$residuals;error
 
 ## Exercise 2
 Compare the plotted quadratic fit to the linear fit  
+
 
 1. which seems better?  
 2. calculate the sum of squared errors, (show the calculation based on $\epsilon$). Which fit has the lower sum?  
